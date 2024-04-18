@@ -1,0 +1,39 @@
+.sidebar {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFF;
+}
+.form-search {
+  position: relative;
+  width: 30%;
+  .icon-search {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+  }
+}
+.form-search input {
+  border: none;
+  min-width: 200px;
+  width: 100%;
+  background-color: #F8F8F8;
+  height: 28px;
+  padding: 8px;
+  border-radius: 4px;
+}
+.form-search input:focus {
+  border: none;
+}
+.form-search input:focus-visible {
+  border: none;
+  outline: none;
+}
+.form-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}

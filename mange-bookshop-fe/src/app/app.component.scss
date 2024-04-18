@@ -1,0 +1,13 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page {
+  border-top: 1px solid #ccc;
+}
